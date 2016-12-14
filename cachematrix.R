@@ -1,9 +1,7 @@
-## functions do
 ## Programming Assignment 2
 ## Caching the inverse of a matrix
   
-## Write a short comment describing this function
-## Create a cache matrix
+## Creating a cache matrix having set, get, setinv and getinv as list of function input
   
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -19,8 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
   }
   
   
-## Write a short comment describing this function
-## Return inverse of matrix from cache if present
+## Return inverse of matrix from cache if present. Else the inv is calculated
  
 cacheSolve <- function(x, ...) {
 ## Return a matrix that is the inverse of 'x'
